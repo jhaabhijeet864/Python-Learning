@@ -1,0 +1,15 @@
+# This is program to calculate factorial
+print("Calculate Factorial Here!\n")
+
+# Take input from the user
+num = int(input("Enter your number: "))
+
+# Handling special cases
+if num<0:
+    print("Factorial si not defined for negative numbers")
+else:
+    # initialization and interation 
+    factorial = 1
+    for i in range(i, n): # type: ignore
+        factorial *= i  
+    print(factorial)
